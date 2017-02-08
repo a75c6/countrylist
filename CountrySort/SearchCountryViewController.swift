@@ -99,8 +99,12 @@ extension SearchCountryViewController: IGListAdapterDataSource {
     func objects(for listAdapter: IGListAdapter) -> [IGListDiffable] {
         //return countries as [IGListDiffable]
         
+        
         guard filterString != "" else { return [searchToken] + countries.map { $0 as IGListDiffable } }
         return [searchToken] + countries.filter { $0.lowercased().contains(filterString.lowercased()) }.map { $0 as IGListDiffable }
+        
+        
+        
     }
     
     func listAdapter(_ listAdapter: IGListAdapter, sectionControllerFor object: Any) -> IGListSectionController {
