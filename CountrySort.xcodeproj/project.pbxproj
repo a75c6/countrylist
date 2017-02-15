@@ -162,8 +162,7 @@
 				TargetAttributes = {
 					94B509831E4AB40A004E352A = {
 						CreatedOnToolsVersion = 8.2.1;
-						DevelopmentTeam = WGE8R97QNK;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
 					};
 				};
 			};
@@ -381,7 +380,7 @@
 			baseConfigurationReference = 94A0FD1017BD9FDF2C987FAD /* Pods-CountrySort.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = WGE8R97QNK;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = CountrySort/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = something.CountrySort;
@@ -395,7 +394,7 @@
 			baseConfigurationReference = 19625224577247214FA7D598 /* Pods-CountrySort.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = WGE8R97QNK;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = CountrySort/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = something.CountrySort;
